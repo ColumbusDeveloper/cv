@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+
+p,h3,h4,h5 {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.container_left {
+    padding: 10px;
+    max-height: 100%;
+    width: 30%;
+    background-color: red;
+}
+
+.container_right {
+    padding: 10px;
+    max-height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_left_foto_box {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_left_foto_box_frame {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+}
+
+.container_left_foto_box_frame_photo {
+    width: 85%;
+    max-width: 85%;
+    margin: 0 auto;
+    object-fit: cover;
+    position: absolute;
+    margin-bottom: -20px;
+}
+
+.container_left_info_box_first {
+    padding-top: 10px;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.container_left_info_box_second {
+    padding-top: 10px;
+    min-height: 20vh;
+    width: 100%;
+}
+
+.subtitle4Wite {
+    color: white;
+    font-size: 23px;
+}
+
+.horLineWite {
+    background-color: white;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.subtitle4WiteBox {
+    padding-bottom: 5px;
+}
+
+.subtitle5Wite {
+    color: white;
+    font-size: 20px;
+}
+
+.textWite {
+    color: white;
+    font-weight: bold;
+}
+
+.langBox {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.horLineBlack {
+    background-color: black;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.universityBlock {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.uniName {
+    font-style: italic;
+}
+
+.noneApp {
+    opacity: 0;
+}
+
+.single {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
